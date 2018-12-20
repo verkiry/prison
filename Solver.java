@@ -68,7 +68,7 @@ public class Solver {
             c++;
             item2 = item2.prevBoard;
             if(item2 == null) {
-                // g(x) + N(x)
+                // g(x)+N(x)
                 return cost + c;
             }
         }

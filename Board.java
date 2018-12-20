@@ -89,7 +89,7 @@ class Field {
             for (int j = 0; j < prisoners.length; j++) {
                 s.append(String.format("%d ", prisoners[i][j]));
             }
-            s.append("\n");
+
         }
         return s.toString();
     }
